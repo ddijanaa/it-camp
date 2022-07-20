@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parent {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+}
+
+.parent:hover {
+    animation: color-change 6s ease-in infinite;
+}
+
+@keyframes color-change {
+    25% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: gray;
+    }
+
+    75% {
+        background-color: rgb(43, 43, 43);
+    }
+
+    100% {
+        background-color: black;
+    }
+}
+
+.parent .child {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 6px solid black;
+}
+
+/* .parent:hover .child {
+    animation-play-state: paused;
+} */
+
+.parent:hover .child {
+    animation: top-to-bottom 6s ease-in infinite; 
+
+    /* 1. vrednost naziv
+    2. vrednost trajanje
+    3. vrednost tip animacije
+    4. vednost kad se zavrrsi animacija da ostane na kraj
+    5. vrednost koliko puta se vrsi animacija
+    6. vrednost kad se izvrsi vraca se na isti nacin  
+    */
+}
+
+@keyframes top-to-bottom {
+    25% {
+        background-color: white;
+        border-radius: 10%;
+        border: 6px solid black;
+        transform: translate(350px, 0);
+    }
+
+    50% {
+        background-color: gray;
+        border-radius: 25%;
+        border: 6px solid gray;
+        transform: translate(350px, 250px);
+    }
+
+    75% {
+        background-color: rgb(43, 43, 43);
+        border-radius: 40%;
+        border: 6px solid gray;
+        transform: translate(0, 250px);
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: black;
+        border: 6px solid white;
+        transform: translate(0, -10px);
+    }
+}

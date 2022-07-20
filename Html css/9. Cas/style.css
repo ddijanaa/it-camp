@@ -1,0 +1,85 @@
+body {
+    font-family: serif;
+    background-color: rgb(0,0,40);
+}
+#container {
+    background: linear-gradient(to,top,#2fafff,rgb(0,6,70));
+    /* Mozemo da stavimo u background color rgba,ovo a to je test cetvrta vrednost oznacava opacity
+    tag backgrounda */
+    width: 500px;
+    margin: 30px auto;
+    border: 3px solid rgb (14,121,0);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: 4ppx 4px 8px rgba(1773,255,47,0.6);
+
+    /* Nakon zareza imamo gore i levu stranu shadow,a prvo pre zareza oznacava dole i desno */
+
+    /* Imamo rrgb to ooznacava boju,a ako dodamo a,to bude rgba i a oznacava alfa sto zapravo 
+    oznacava koliko ce senka da bude vidljiva i moze biti od0 do 1,
+    sto je veci broj senka ona ce biti vidljiviija */
+
+    /* prva vrednost se odnosi na desnu stranu, druga rednost na dno a treca vrednost ona vrsi sencenje
+    i imamo boju da definisemo */
+
+    /* apaxity: 0.5; */
+
+    /* opacity oznacava providnost necega */
+}
+
+.naslov{
+      text-transform: uppercase;
+        /* text-transform: Lowercase; sva slova mala */
+        /* text-transform: Capitalize; pocetno slovo veliko */
+        /* text-transform: none; defualt vrednost */
+
+        color:black;
+        text-align: center;
+        /* padding: 15px 0; */
+        padding-top: 15px;
+        padding-bottom: 15px;
+        /* padding-top itd.. se odnosi samo na padding dela koje smo pomenuli */
+}
+.podnaslov{
+    font-size: 22px;
+    /* padding: 15px 20px */
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    padding-right: 20px;
+    padding-right: 20px;
+}
+
+.lista{
+
+    /* text-algin:center; 
+    text-algin:left;
+    /* text-algin:right; */
+
+    /* text algin sluxi da pomeri text desni levo centar itd.. */
+
+    /* text-algin:justify; */
+
+    /* text-indent: 20px; */
+    /* ovo sluzi da pravu rec pomeri za datu vrednost */
+    /* text-algin-last: 30px */
+    /* ovo sluzi da poslednju rec/recenicu pomeri za datu vrednost */
+    font-size: 22px;
+    list-style-type: none;
+} 
+
+.img{
+    width: 500px;
+    height: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.img:hover{
+    content:url(okean1.jpg)
+}
+.lista:hover{
+    background-color: yellowgreen;
+}

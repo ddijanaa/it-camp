@@ -1,0 +1,43 @@
+.div {
+display:inline-block;
+font-family:sans-serif;
+background-color: rgba(243,244,246);
+width:32%;
+height:33%;
+margin:8px;
+text-algin: center;
+}
+.box{
+    padding: 20px;
+}
+.paragraf{
+    color:rgba(99,102,241);
+    text-algin:center;
+}
+.kat{
+    letter-spacing: .1em;
+    font-size: .75rem;
+    line-heightL:1rem;
+    font-weight: 500;center
+    text-align:center;
+    color:(156,163,175)
+    margin:0;
+}
+.podnaslov{
+    font-size:24px;
+    text-align: center;
+    font-weight: 500;
+    font-family: inherit;
+    color:rgba(17,24,39)
+}
+.tekst{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(75,85,99);
+}
+.paragraf{
+    text-align: center;
+    color: rgba(156,163,175);
+    padding-top:45px;
+    font-size: 14px;
+}

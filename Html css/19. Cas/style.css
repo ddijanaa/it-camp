@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    height: 70vh;
+    background-color: yellow;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.container .box1,.container .box2,.container .box3 {
+    /* flex-basis: 200px; isto kao i width. */
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .box1 {
+    /* flex-grow: 1; definisanje sirine naseg kontejnera*/
+    /* order: 2; */
+    /* flex-shrink: 1; kad suzavamo ekran, sto je veca vrednost 
+    box se vise suzava. */
+
+    /* flex: 1 2; */
+    /* flex svojstvo, prvi broj oznacava flex grow, drugi oznacava flex shrink */
+    /* flex shrink nece raditi zbog flex grow-a */
+
+    background-color: darkorange;
+}
+
+.container .box2 {
+    /* flex-grow: 1; */
+    /* order: 3; */
+    /* flex-shrink: 2; */
+
+    /* flex: 1 2; */
+
+    background-color: darkviolet;
+}
+
+.container .box3 {
+    /* flex-grow: 1; */
+    /* order: 1; */
+    /* flex-shrink: 1; */
+
+    /* flex: 1 2; */
+
+    background-color: darkblue;
+}

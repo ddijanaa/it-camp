@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header .container .logo h3 {
+    position: absolute;
+    left: 0;
+}
+
+
+header .container .navbar ul button {
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+header .container .navbar ul button:nth-of-type(1) {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+header .container .navbar ul button:nth-of-type(2) {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.main {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.main .div {
+    background-color: whitesmoke;
+    width: 80%;
+    display: flex;  
+    height: 300px;  
+}
+
+.main img {
+    float: left;
+}

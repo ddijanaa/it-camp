@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: blue;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+header .container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .navbar {
+    font-weight: bold;
+}
+
+header .container .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+header .container .navbar button {
+    padding: 14px 32px;
+    color: blue;
+    background-color: white;
+    border-radius: 23px;
+    border: none;
+    transition: 0.5s;
+    border: 1px solid white;
+    margin: 0 0 0 25px;
+    cursor: pointer;
+    font-weight: boldz;
+}
+
+header .container .navbar button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+header .container h1 {
+    color: white;
+}   
+
+header .container .navbar a:hover {
+    color: rgb(171, 171, 171);
+}
+
+.main {
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    width: 60%;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin: 50px 0;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container2 .div1,.div2,.div3 {
+    background-color: rgb(226, 234, 235);
+    padding: 20px;
+    width: 400px;
+    height: 230px;
+    transition: 0.5s;
+}
+
+.container2 .div1:hover,.div2:hover,.div3:hover {
+    box-shadow: 1px 1px 10px black;
+}
+
+.container, .div1 p,.div2 p,.div3 p {
+    margin: 10px 0;
+}
+
+.container, .div1 h2,.div2 h2,.div3 h2 {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.cont {
+    width: 100%;
+}
+
+.cont .cont1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 500px) {
+
+    header {
+        position: static;
+    }
+
+    .container2 {
+        flex-direction: column;
+    }
+
+    .cont {
+        margin: 0;
+    }
+
+    .cont1 {
+        flex-direction: column;
+        justify-content: start;
+
+    }
+
+    .cont1 img {
+        width: 90%;
+    }
+
+    
+}

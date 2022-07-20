@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: inline-block;
+    overflow: auto;
+}
+.container:nth-of-type(1){
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border:2px dashed aqua;
+}
+.container:nth-of-type(2){
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border:2px dashed aqua;
+}
+.container:nth-of-type(3){
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    padding: 20px 15px;
+    border:2px dashed aqua;
+}
+
+
+.container:nth-of-type(1) span{
+    color: darkgoldenrod;
+    font-size:30px;
+}
+.container:nth-of-type(2) span{
+    color: darkgoldenrod;
+    font-size:40px;
+}
+.container:nth-of-type(3) span{
+    color: darkgoldenrod;
+    font-size:45px;
+}
+.container:nth-of-type(1) p:hover{
+    color: darkred;
+}
+.container:nth-of-type(2) p:hover{
+    color: darkred;
+}
+.container:nth-of-type(3) p:hover{
+    color: darkred;
+}
+/*  */
+.back{
+    margin:20px auto;
+    width: 850px;
+    height: 700px;
+    background-image: url(imageokean.jpg    );
+    color: black;
+}
+.back h2 .spn{
+    color: darkblue;
+}
+

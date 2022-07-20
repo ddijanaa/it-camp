@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Exo 2", sans-serif;
+}
+.parent{
+    width: 100vw;
+    height: 900px;
+    background-color: aquamarine;
+    float: left;
+}
+.parent .box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+.parent .box2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    float: left;
+}
+.parent .box3{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+.parent .box4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    float: left;
+}
+.parent .box5{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    float: left;
+}
+.parent .box6{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    float: left;
+}
+.parent .box7{
+    width: 100px;
+    height: 100px;
+    background-color:violet;
+    float: left;
+}
+.parent .box8  {
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    float: left;
+}

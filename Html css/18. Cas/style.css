@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: darkslateblue;
+  width: 30vw;
+  height: 4rem;
+  padding: 10px;
+  border: 2px dashed darkred;
+  box-sizing: border-box;
+}
+.after{
+  background-color: darkviolet;
+  width: 30vw;
+  height: 4rem;
+  padding: 10px;
+  border: 3px dotted darkblue;
+      
+}
+.footer{
+  background-color: darkorange;
+  width: 30vw;
+  height: 4rem;
+  border: 3px dotted darkcyan;
+}

@@ -1,0 +1,28 @@
+.parent{
+    margin: 0 auto;
+    width: 80vw;
+    height: 600px;
+    background-color: azure;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.parent .box:nth-of-type(1){
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    order: 2;
+}
+.parent .box:nth-of-type(2){
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    order: 3;
+}
+.parent .box:nth-of-type(3){
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    order: 1;
+}

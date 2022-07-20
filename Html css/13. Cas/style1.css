@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+
+    background-color: aqua;
+    width: 350px;
+    height: 400px;
+    margin: 40px 20px;
+    overflow: auto;
+    display: inline-block;
+}

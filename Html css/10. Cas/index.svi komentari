@@ -1,0 +1,34 @@
+ <!-- div tag predstavlja kontejner za skladistenje sadrzaja na stranici. -->
+  <!-- Takodje, postoje alternative za div tag -->
+    <!-- section tag je jedna od alternativa -->
+    <!-- main tag je jedna od alternativa -->
+    <!-- ol tag predstavlja jednu uredjenu listu -->
+    <!-- li tag predstavlja jednu stavku unutar nase uredjene liste -->
+    <!-- ol tag predstavlja jednu uredjenu listu -->
+    <!-- li tag predstavlja jednu stavku unutar nase uredjene liste -->
+     <!-- ol tag predstavlja jednu uredjenu -->
+      <!-- li tag predstavlja jednu stavku unutar nase uredjene liste -->
+      <!-- ul predstavlja jednu neuredjenu listu -->
+ <!-- li tag predstavlja jednu stavku unutar nase uredjene liste -->
+ <!-- form,h1,p,button... su tagovi, a action,type i jos neki koje cemo kasnije raditi su atributi -->
+    <!-- Unutar form taga imamo atribut action koji se odnosina to gde ce nas odvestidugme Sumbit -->
+<!-- li tag predstavlja jednu stavku unutar odredjene liste -->
+ <!-- p tag je blok level elementa -->
+<!-- src atribut je neophodan i on nam zapravo putanja dolaska do fotografije -->
+<!-- alt,width i height aributi  su opcioni. Fotografija moze biti smestena i bez njih.-->
+<!--img je online element--!>
+<!-- Za koriscenje eksternih linkova se mora upotrebiti a tag, on u sebi ima atribut (obavezni)
+href koji je zapravo adresa stanice -->
+<!-- Takodje unutar otvorenog i zatvorenog taga a mora stajati neki tekst koji je zapravo
+     vodilja da one aadrese kojoj zelimo pristupiti -->
+/* Moramo prvo napisati ime taga koji zelimo da menjamo/ te nakon izvrsiti promene. */
+ <!-- Ovaj cas smo malo radili, ali smo nacuili siru pozadinu o html- i naucili smo
+    eksternim putem da ubacimo css. -->
+     <!-- ovaj cas smo naucili da koristimo id i klase od bi time koristimo css -->
+    <!-- klasa moze za vise tagova ista,dakle id je poseban -->
+    <!-- id ima prednost nad klasom,ako jednom paragrafu dodamo id i classu
+    u css pri dodeljivanju vrednosti prednost ce imati id.-->
+    
+    <!-- razlika izmedju id i classe je da classu mozemo vise puta koristiti
+    u razlicitim tagovima a id je specifican i smao ga koristimo u jedan tag -->
+     <!-- Link ispod se odnosi na  ikonice (fontawesome v4) -->

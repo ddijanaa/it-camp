@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+}
+.div1{
+    width: 300px;
+    height: 300px;
+    float: left;
+    text-align: left;
+    margin: 180px 200px;
+}
+.div2{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgb(128, 128, 128);
+    margin: 180px 220px;
+}
+.div2 input{
+    margin: 10px;
+    padding: 15px;
+    outline: none;
+    width: 80px;
+}
+.div2 .btn{
+    padding: 10px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    text-align: center;
+    width: 80px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.div1 h1{
+    color:blue;
+    font-size: lowercase;
+}
+.div1 p{
+    font-size: 25px;
+}
+.div2 a{
+    text-decoration: none;
+    font-size: 18px;
+    margin: 30px;
+}
+.div2 .btn1{
+    background-color: rgb(0, 189, 0);
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+.div2 hr{
+    margin: 20px 0                  ;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.parent .box:nth-of-type(1){
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    align-self: center;
+    display: flex;
+}
+.parent .box:nth-of-type(2) p:nth-of-type(2){
+    color: aqua;
+}
+.parent .box:nth-of-type(2) p:nth-of-type(1){
+    align-self: end;
+}
+.parent .box:nth-of-type(2) p:nth-of-type(2){
+    align-self: center;
+}
+.parent .box:nth-of-type(3){
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    align-self: end;
+
+}
