@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Cairo', sans-serif;
+    background-color: bisque;
+}
+.border{
+    justify-content: center         ;
+}

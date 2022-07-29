@@ -1,53 +1,60 @@
-h1{
-color:  #000051;
-}     
+h1 {
+    color: #000051;
+}
 
 div h1 {
     color: red;
 }
+
 .class1 p {
     color: green;
 }
-div.class1{
 
-    background-color:aquamarine;
-    width: 400px;
-    height: 300px;  
-
-    /* border:5px solid black */
-    /* border:5px double darkred */
-    /* border:5px dotted darkblue */
-    border: 5px dashed  darkred;
-    /* postoji jos vrsta bordera */
-
-    /* margin: 20px  */
-    /* margin: 10px 20px 10px 15px   */
-    margin: 20px 25px;
-    
-    /* padding: 15px; */
-    padding:15px 10px;
-  
-}
-
-#id1{
-    background-color:rgb(125, 64, 125);
+.class1 {
+    background-color: aquamarine    ;
     width: 400px;
     height: 300px;
-    margin: 40px auto;        
-    border: 3px dashed green;
-    border-radius: 8px;
-    border-top-left-radius:8px;
-    border-bottom-right-radius:8px;
+    
+    /* border: 5px solid black; */
+    /* border: 5px double darkred; */
+    /* border: 5px dotted darkblue; */
+    border: 5px dashed darkred;
+    /* Postoji jos vrsta bordera... */
+    
+    /* margin: 20px; */
+    /* margin: 10px 20px 10px 15px; */
+    margin: 20px 25px;
+    
+    /* isto ovo sto vazi za margin (kad margin dodelimo 4 vrednosti prva 
+    je za gore, druga za desno, treca za dole, i cetvrta za levo
+    a kad dodelimo 2 vrednosti prva vazi za gore i dole
+    a druga za desno i levo) vazi i za padding */
+    /* padding: 15px; */
+    padding: 15px 10px;
+}
+
+#id1 {
+    background-color: yellowgreen;
+    width: 400px;
+    height: 300px;
+    margin: 40px auto;
+    border: 3px solid goldenrod;
     padding: 15px 30px;
-    id p : hover {
-background-color:#ffaaee;
-    }
-}            
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
 #id1 p {
-    color:darkblue;     
-}     
-/* prednost prilikom dodele stilova ima id u odnosu na klasu! */
-#id2{
-    color:darkgoldenrod;
+    color: darkblue;
+    
+}
+
+#id1 p:hover {
+    background-color: aqua;
+}
+
+#id1:hover {
+    background-color: #ffaaee;
 }
     
